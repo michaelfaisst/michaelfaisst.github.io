@@ -12,7 +12,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "surge": "surge --domain michi-und-manu.surge.sh"
+    "surge": "surge --domain michi-und-manu.surge.sh",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.19.7",
@@ -38,6 +39,7 @@
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
     "@types/react-helmet": "^5.0.15",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "surge": "^0.21.3"
   }
