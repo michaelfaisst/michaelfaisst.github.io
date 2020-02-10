@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card {
+	position: relative;
+	background-color: $card-background;
+	padding: 5rem 12rem;
+	text-align: center;
+	width: 100%;
+
+	@include respond(phone) {
+		padding: 3rem 6rem;
+	}
+}
+
+.icon {
+	opacity: 0.7;
+	width: 6rem;
+	height: 6rem;
+}
