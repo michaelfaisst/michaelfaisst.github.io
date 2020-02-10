@@ -13,7 +13,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean", 
     "surge": "surge --domain michi-und-manu.surge.sh",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "gatsby": "^2.19.7",
