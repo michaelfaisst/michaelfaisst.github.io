@@ -15,12 +15,12 @@ const IndexPage = () => (
 			<div className="seperator">~</div>
 
 			<div className="subText">
-				Michael &amp; Manuela
+				Manuela &amp; Michael
 				<br />
 				are getting married!
 			</div>
 			<div className="seperator">~</div>
-			<div className="dateText">Friday, 4th September 2020</div>
+			<div className="dateText">Friday, 4th September, 2020</div>
 		</div>
 	</main>
 );
